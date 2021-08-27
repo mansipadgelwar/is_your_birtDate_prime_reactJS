@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+:root {
+  --primary-color: black;
+}
+
+.App {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: seagreen;
+}
+
+div {
+  padding: 2rem;
+}
+
+.input {
+  width: 180px;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 2px solid var(--primary-color);
+  height: 3vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  height: 5vh;
+  width: 130px;
+  max-width: 80%;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  border: 2px solid var(--primary-color);
+  display: block;
+  margin: auto;
+}
+
+.output {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
