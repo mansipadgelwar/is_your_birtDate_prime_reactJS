@@ -32,7 +32,9 @@ export default function App() {
     var DD = Number(userBirthDate[0]);
     var MM = Number(userBirthDate[1]);
 
-    if (inputDate === "") {
+    if (userName === "" && inputDate === "") {
+      output = "Please enter all the details.";
+    } else if (inputDate === "") {
       output = "Please enter your birthdate.";
     } else if (userName === "") {
       output = "Please enter your name.";
